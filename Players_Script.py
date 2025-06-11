@@ -70,4 +70,3 @@ all_players.append(player_data)
 
 stat_df = pd.concat(all_players)
 stat_df.to_csv("Players.csv")
-print(all_players)
